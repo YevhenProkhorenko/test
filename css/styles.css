@@ -14,9 +14,13 @@ p {
 .about {
   background-color: tomato;
   padding: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  border: 1px solid #000;
 }
 .services {
+  display: flex;
   background-color: teal;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  flex-flow: column wrap;
+  align-items: center;
 }
