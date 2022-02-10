@@ -63,6 +63,10 @@
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+.navigation:nth-child(2n + 1) {
+  padding-right: 50px;
+}
+
 .navigation:hover,
 .navigation:focus {
   color: var(--accent-page-color);
