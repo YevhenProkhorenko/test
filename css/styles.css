@@ -11,6 +11,9 @@
 * {
   box-sizing: border-box;
 }
+ul {
+  margin: 0;
+}
 /*==============STUDIO PAGE==============*/
 /*==============BODY CSS==============*/
 .page {
@@ -22,7 +25,7 @@
 .nav-section-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 1600px;
   height: 80px;
   left: 0px;
@@ -36,6 +39,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-right: 93px;
 }
 .logo-container {
   display: flex;
@@ -62,6 +66,7 @@
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  margin-left: 50px;
 }
 .navigation:nth-child(2n + 1) {
   padding-right: 50px;
